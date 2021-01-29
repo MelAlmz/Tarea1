@@ -4,22 +4,22 @@ package arbolito;
 public class DatosFamiliares 
 { //inicializo variables
     
-    protected String nombre;
-    protected String apellidoP;
-    protected String apellidoM;
-    protected int edad;
-    protected String Padre;
-    protected String Madre;
+    private String nombre;
+    private String apellidoP;
+    private String apellidoM;
+    private int edad;
+    private String Padre;
+    private String Madre;
 
     //constructor *insertar código/constructor*
 
-    public DatosFamiliares(String nombre, String apellidoP, String apellidoM, int edad, String hijaPadre, String hijaMadre) {
+    public DatosFamiliares(String nombre, String apellidoP, String apellidoM, int edad, String Padre, String Madre) {
         this.nombre = nombre;
         this.apellidoP = apellidoP;
         this.apellidoM = apellidoM;
         this.edad = edad;
-        this.Padre = hijaPadre;
-        this.Madre = hijaMadre;
+        this.Padre = Padre;
+        this.Madre = Madre;
     }
 
         //get (se que se ponen pero no sé para qué, igual con los set)
