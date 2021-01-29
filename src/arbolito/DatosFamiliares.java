@@ -1,7 +1,7 @@
 
 package arbolito;
 
-public class DatosFamiliares 
+public class DatosFamiliares  
 { //inicializo variables
     
     private String nombre;
@@ -43,6 +43,7 @@ public class DatosFamiliares
     public String getHijaPadre() {
         return Padre;
     }
+    
 
     public String getHijaMadre() {
         return Madre;
