@@ -2,7 +2,7 @@ package arbolito;
 
 public class ElHermanoQueNuncaTuve extends DatosFamiliares { //clase hija de DatosFamiliares
 
-    private String deporte; //digamos que puse esto aquí y no en datos familiares por que solo me interesa el de ella
+    private String deporte; //digamos que puse esto aquí y no en datos familiares por que solo me interesa el de el
 
     public ElHermanoQueNuncaTuve(String nombre, String apellidoP, String apellidoM, int edad, String Padre, String Madre, String deporte)//escribo todos los atributos que hereda y los propios
     {

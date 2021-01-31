@@ -17,6 +17,6 @@ public class ElPadreQueSeFuePorLosCigarros extends DatosFamiliares { //clase hij
                 + "\nedad: " + getEdad()
                 + "\nnombre del padre: " + getHijaPadre()
                 + "\nnombre de la madre: " + getHijaMadre()
-                + "\naños sin pension alimenticia: " + añosSinPensionAlimenticia);
+                + "\naños sin pension alimenticia: " + this.añosSinPensionAlimenticia);
     }
 }

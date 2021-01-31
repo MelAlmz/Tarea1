@@ -1,7 +1,7 @@
 
 package arbolito;
 
-public class DatosFamiliares  
+public class DatosFamiliares  implements Comportamientos 
 { //inicializo variables
     
     private String nombre;
@@ -20,6 +20,10 @@ public class DatosFamiliares
         this.edad = edad;
         this.Padre = Padre;
         this.Madre = Madre;
+    }
+
+    DatosFamiliares() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
         //get (se que se ponen pero no sé para qué, igual con los set)
@@ -73,6 +77,31 @@ public class DatosFamiliares
 
     public void setMadre(String Madre) {
         this.Madre = Madre;
+    }
+
+    @Override
+    public void comer() 
+    {
+        System.out.println("¿Aquí se supone que debo escribir algo? por que tengo hambre..."); 
+        //¿qué se supone que hago con esto?
+    }
+
+    @Override
+    public void comprarCositasParaMel() 
+    {
+        System.out.println("Me imagino que aquí tambien hace algo");
+    }
+
+    @Override
+    public void ellosCorrenYoSoyGorda() 
+    {
+        System.out.println("Aquí igual");
+    }
+
+    @Override
+    public void noSeCuantosDeboCrear() 
+    {
+        System.out.println("Aquí tambien");
     }
     
     
